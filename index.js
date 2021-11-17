@@ -9,6 +9,7 @@ const person = {
     name: 'abcde',
     age: 10,
     gender: 'm'
+
 };
 
 const { name, age } = person;

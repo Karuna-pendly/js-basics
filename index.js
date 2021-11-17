@@ -52,12 +52,11 @@ function largestNumber(numArray) {
 
 //javascript function to return updated salaries of employees.
 
-function updateSalaries(numArray) {
+function updateSalaries(empoyleesArray, percent) {
     let result = []
-    largest = numArray[0];
 
-    for (let i = 0; i < numArray.length; i++) {
-        let temp = numArray[i] * (10 / 100) + numArray[i]
+    for (let i = 0; i < empoyleesArray.length; i++) {
+        let temp = empoyleesArray[i] + ((percent) * empoyleesArray[i] / 100)
         result.push(temp)
     }
     return result;

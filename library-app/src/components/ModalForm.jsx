@@ -7,7 +7,7 @@ const ModalForm = ({ books, setBooks, func }) => {
     author: "",
     subject: "",
   });
-  //   const [inputs, setInputs] = useState({});
+
   const [close, setClose] = useState(true);
 
   const handleChange = (event) => {

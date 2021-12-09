@@ -1,7 +1,6 @@
 import "./App.css";
-// import Books from "./components/books";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/Home";
-// import ModalForm from "./components/ModalForm";
 
 function App() {
   return (
